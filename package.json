@@ -1,0 +1,41 @@
+{
+  "name": "idx",
+  "description": "collection of composable indexes written in javascript",
+  "homepage": "http://github.com/emitdb/idx",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/emitdb/idx.git"
+  },
+  "version": "0.0.2",
+  "author": "Nuno Job <nunojobpinto@gmail.com> (http://nunojob.com)",
+  "keywords": [
+    "index",
+    "indexes",
+    "btree",
+    "nlp",
+    "inverted",
+    "full text",
+    "binary",
+    "search"
+  ],
+  "main": "./idx.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "rdir test"
+  },
+  "dependencies": {
+    "parentchild": "~0.0.0",
+    "require-all": "~0.0.6",
+    "async": "~0.2.9",
+    "bytewise": "~0.5.0",
+    "levelup": "~0.13.0",
+    "leveldown": "~0.7.0"
+  },
+  "devDependencies": {
+    "rdir": "0.0.1",
+    "powerset": "0.0.1",
+    "rimraf": "~2.2.2"
+  }
+}
